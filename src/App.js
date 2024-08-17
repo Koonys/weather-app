@@ -25,7 +25,7 @@ function App() {
 
   useEffect(() => {
     getCurrentLocation()
-  }, []);
+  }, [getCurrentLocation]);
   return (
     <div className="App">
       <div className={"container"}>
